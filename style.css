@@ -1,0 +1,181 @@
+/*body css*/
+body{
+    background-color: rgba(100, 50, 89, 0.548);
+}
+/*all ul css*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+}
+/*all li css*/
+li {
+    float: left;
+}
+/*all li a css*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+/*navbar panier*/
+#imgpanier{
+height: 2.5%;
+}
+/*all my h1 css class*/
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    background-color:rgb(77, 25, 77) ;
+    width: 39.1%;
+    color: rgb(25, 146, 177);
+}
+/*img computer css*/
+.mat{
+    width:30%;
+    height: 30%;
+}
+/*formation carte texte*/
+#text{
+    
+    flex-direction: column;
+}
+/*just to change p de carte text*/
+#sun{
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*div my monster computer*/
+.numb2{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+/*css my h1 ps5*/
+#h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    background-color:rgb(77, 25, 77) ;
+    width: 23.9%;
+    color: rgb(25, 146, 177);
+}
+/*css all my button*/
+button{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+/*all prix css*/
+.prix{
+    background-color: #093475;
+    color: rgb(255, 0, 0);
+    width: 300px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    border-radius: 15px;
+    padding: 8px 10px;
+    margin: 5px;
+}
+/*css a num of selection produit*/
+.num{
+    background-color: rgb(110, 99, 83);
+    width: 50px;
+    height: 30px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    color: rgb(17, 17, 209);
+    
+}
+/*css all my i 00*/
+i{
+
+    padding:9px;
+    margin-top: 20px;
+    color: #040504;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+/* css div to make line*/
+.het{
+    background-color: #111;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+/*css all my ol*/
+ol{
+    font-size: large;
+}
+/*css move button n1*/
+.moves{
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+/*css my footer*/
+.footer{
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    background-color: #939e9a;
+   text-align: justify;
+    height: 80px;
+    margin-left: 500px;
+    font-size: x-large;
+}
+/*css my text in footer*/
+#pfooter{
+    margin-left: 150px;
+    font-size: large;
+    color: #040504;
+}
+/*css my num of produit to client shoose*/
+.ecran{
+    background-color: rgb(110, 99, 83);
+    width: 50px;
+    height: 30px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    color: rgb(17, 17, 209);
+}
+/*button remove css numb2*/
+.movesss{width: 80px;
+    height: 50px;
+    border-radius: 20px;}
+    /*css to like button*/
+.heart{
+    width: 50px;
+    height:50px;
+    border-radius: 30px;
+    
+}
+/*css to my prix total*/
+.total{
+    background-color: rgb(165, 115, 40);
+    width: 230px;
+    height: 100px;
+   padding: 5px 10px;
+    border-radius: 25px;
+    color: rgb(17, 17, 209);
+    margin-top: 150px;
+    color: #040504;
+}
+/*css after inspecter my like button to change color*/
+.heart:hover{
+    background-color: #c90101;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <div  class="login" >
+    <form  class="login" name="loginForm" onsubmit="return validateForm(event) ">
+        <label class="login" for="Name">Name:</label>
+        <input class="login" type="text" name="name" placeholder="example@example.com" />
+        <label class="login" for="password">Password:</label>
+        <input class="login" type="password" name="password" placeholder="*********" />
+        <button class="login" type="submit"><a href="index.html">return</a> Login</button>
+        <button class="login" type="reset">cancel</button>
+      </form>
+      
+    </div>
+      <script>function validateForm(e) {
+        e.preventDefault()
+        var name = document.loginForm.name.value
+        var password = document.loginForm.password.value
+       if (name.length==0)
+        return alert(`name is required`)
+       if (password.length<5)
+        return alert(`password length should more than 5`)
+       }</script>
+</body>
+</html>

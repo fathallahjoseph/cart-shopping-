@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+a{
+    color: blue;
+}
+.login{
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 20px;
+    display: block;
+    height: 30%;
+    width: 70%;
+    border-radius: 30px;
+    background-color: rgb(240, 32, 136);
+}
+label{
+    background-color: rgb(62, 63, 117);
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    
+}
+input{
+    background-color: whitesmoke;
+    margin: 5px;
+    color: azure;
+    
+}
+button{
+    margin: 5px;
+    background-color: rgb(49, 165, 159);
+    color: blue;
+}
+placeholder{
+color: black;
+}
