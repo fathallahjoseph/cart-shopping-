@@ -37,7 +37,6 @@ pluss.addEventListener("click",()=>{
     b++;
     b=(b<10)?"0"+b:b;
     nums.innerText = b;
-  
 });
 minuss.addEventListener("click",()=>{
     if(b>0){
@@ -79,3 +78,4 @@ waButton.onclick = function() {
   };
  
 //finish fonc button liked jadore
+//my panier //

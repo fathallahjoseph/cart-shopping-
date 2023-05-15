@@ -166,16 +166,27 @@ ol{
 }
 /*css to my prix total*/
 .total{
-    background-color: rgb(165, 115, 40);
-    width: 230px;
-    height: 100px;
-   padding: 5px 10px;
+    background-color: rgb(110, 99, 83);
+    width: 150px;
+    height: 30px;
+    padding: 10px 10px;
     border-radius: 25px;
     color: rgb(17, 17, 209);
-    margin-top: 150px;
-    color: #040504;
 }
 /*css after inspecter my like button to change color*/
 .heart:hover{
     background-color: #c90101;
+}
+/*css o de prix total*/
+o{
+    background-color: whitesmoke;
+    width: 60px;
+}
+/*css total dolars prix*/
+.dolars{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    background-color:rgb(77, 25, 77) ;
+    width: 23.9%;
+    color: rgb(25, 146, 177);
 }
