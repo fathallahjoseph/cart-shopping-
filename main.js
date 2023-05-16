@@ -10,7 +10,8 @@ plus.addEventListener("click",()=>{
     a=(a<10)?"0"+a:a;
     num1.innerText = a;
     console.log(a);
-    
+    money();
+
 });
 minus.addEventListener("click",()=>{
     if(a>0){
@@ -18,12 +19,15 @@ minus.addEventListener("click",()=>{
        a=(a<10)?"0"+a:a;
        num1.innerText=a;
     };
+    money();
+
 });
 removes.addEventListener("click",()=>{
     x=0;
     a=(x==a)?"0":x;
     num1.innerText = x;
     console.log(x);
+    money();
 });
 
 //my carte shop ps5 button
@@ -37,6 +41,7 @@ pluss.addEventListener("click",()=>{
     b++;
     b=(b<10)?"0"+b:b;
     nums.innerText = b;
+    money();
 });
 minuss.addEventListener("click",()=>{
     if(b>0){
@@ -44,12 +49,15 @@ minuss.addEventListener("click",()=>{
        b=(b<10)?"0"+b:b;
        nums.innerText=b;
     }console.log(b)
+    money();
+
 });
 removess.addEventListener("click",()=>{
     f=0;
     b=(f==b)?"0":f;
     nums.innerText = f;
     console.log(f);
+    money();
 });
 
 //boutton liked jadore
@@ -79,3 +87,37 @@ waButton.onclick = function() {
  
 //finish fonc button liked jadore
 //my panier //
+function money() {
+o=document.getElementsByClassName("total")
+console.log(o[0].innerText);
+let c;
+var cc;
+var aa=Number(a),
+bb=Number(b);
+if(aa>0){
+  c=aa*3000;
+  console.log("firstif",c,cc)
+}
+ if (bb>0){
+  cc=bb*3000;
+  console.log("second if",cc)
+ }
+ if(!cc){
+  s=c
+ }
+ else if(!c){
+  s=cc
+ }
+ else{
+  s=c+cc;
+ }
+
+ o[0].innerHTML=s;
+console.log(s)
+console.log("aaaa",o);
+if (o[0].innerText=="undefined"){
+  console.log("ouhh")
+  o[0].innerHTML="0000";
+}
+} 
+console.log(a,b);
