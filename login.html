@@ -9,25 +9,32 @@
     <link rel="stylesheet" href="index.html">
 </head>
 <body>
-    <div  class="login" >
+  <!--div de login-->
+    <div  class="Joseph" >
     <form  class="login" name="loginForm" onsubmit="return validateForm(event) ">
         <label class="login" for="Name">Name:</label>
-        <input class="login" type="text" name="name" placeholder="example@example.com" />
+        <input class="login" type="text" name="name" placeholder="username" />
         <label class="login" for="password">Password:</label>
-        <input class="login" type="password" name="password" placeholder="*********" />
-        <button class="login" type="submit"><a href="index.html">return</a> Login</button>
+        <input class="login" type="password" name="password" placeholder="password" />
+        <button class="login" type="submit"> Login</button>
+                     <button class="login">Forgot password?</button>
         <button class="login" type="reset">cancel</button>
       </form>
       
     </div>
+    <!--script js to login-->
       <script>function validateForm(e) {
         e.preventDefault()
         var name = document.loginForm.name.value
         var password = document.loginForm.password.value
        if (name.length==0)
-        return alert(`name is required`)
+        alert(`name is required`)
        if (password.length<5)
-        return alert(`password length should more than 5`)
+        alert(`password length should more than 5`)
+        else{
+          alert("succés")
+          window.open("/index.html")
+        }
        }</script>
 </body>
 </html>

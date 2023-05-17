@@ -174,8 +174,8 @@ ol{
     color: rgb(17, 17, 209);
 }
 /*css after inspecter my like button to change color*/
-.heart:hover{
-    background-color: #c90101;
+.heart:hover{ 
+    background-color: #c90101 !important; 
 }
 /*css o de prix total*/
 o{
